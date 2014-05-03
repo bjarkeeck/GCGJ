@@ -35,6 +35,7 @@
     <ApplicationIcon>Program\Icon.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Classes\Core\Camera.cs" />
     <Compile Include="Classes\Core\GameObject.cs" />
     <Compile Include="Classes\Core\Input.cs" />
     <Compile Include="Classes\Core\LevelData.cs" />

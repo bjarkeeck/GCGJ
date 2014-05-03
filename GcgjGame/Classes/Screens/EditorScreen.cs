@@ -60,6 +60,51 @@ namespace GcgjGame.Classes.Screens
 
         public override void Update()
         {
+            MouseLeft();
+
+            MouseRight();
+
+            MiddleMouse();
+
+        }
+
+        private Vector2 startDragPos = new Vector2();
+        private void MiddleMouse()
+        {
+            if (InputHelper.MouseMiddleDown)
+                startDragPos = InputHelper.MousePosition;
+
+            if (InputHelper.MouseMiddle)
+                GameScreen.CameraPosition += (startDragPos - InputHelper.MousePosition) / 4;
+        }
+
+        private void MouseRight()
+        {
+            if (InputHelper.MouseRightDown)
+            {
+                if (gameScreen.Rectangle.Contains(InputHelper.MousePosition))
+                {
+                    Vector2 position = new Vector2((int)(InputHelper.MousePosition.X / 32f) * 32, (int)(InputHelper.MousePosition.Y / 32f) * 32);
+                    GameObject gameObject = gameScreen.LevelData.GameObjects.OrderByDescending(x => x.ZIndex).FirstOrDefault(x => x.Position == position);
+                    if (gameObject != null)
+                        deletingType = gameObject.GetType();
+                }
+            }
+
+            if (InputHelper.MouseRight)
+            {
+                if (gameScreen.Rectangle.Contains(InputHelper.MousePosition))
+                {
+                    Vector2 position = new Vector2((int)(InputHelper.MousePosition.X / 32f) * 32, (int)(InputHelper.MousePosition.Y / 32f) * 32);
+                    GameObject gameObject = gameScreen.LevelData.GameObjects.FirstOrDefault(x => x.Position == position && x.GetType() == deletingType);
+                    if (gameObject != null)
+                        gameScreen.LevelData.GameObjects.Remove(gameObject);
+                }
+            }
+        }
+
+        private void MouseLeft()
+        {
             foreach (GameObject go in gameObjects)
             {
                 if (InputHelper.MouseLeft)
@@ -84,29 +129,6 @@ namespace GcgjGame.Classes.Screens
                         }
                     }
                 }
-
-            }
-
-            if (InputHelper.MouseRightDown)
-            {
-                if (gameScreen.Rectangle.Contains(InputHelper.MousePosition))
-                {
-                    Vector2 position = new Vector2((int)(InputHelper.MousePosition.X / 32f) * 32, (int)(InputHelper.MousePosition.Y / 32f) * 32);
-                    GameObject gameObject = gameScreen.LevelData.GameObjects.OrderByDescending(x => x.ZIndex).FirstOrDefault(x => x.Position == position);
-                    if (gameObject != null)
-                        deletingType = gameObject.GetType();
-                }
-            }
-
-            if (InputHelper.MouseRight)
-            {
-                if (gameScreen.Rectangle.Contains(InputHelper.MousePosition))
-                {
-                    Vector2 position = new Vector2((int)(InputHelper.MousePosition.X / 32f) * 32, (int)(InputHelper.MousePosition.Y / 32f) * 32);
-                    GameObject gameObject = gameScreen.LevelData.GameObjects.FirstOrDefault(x => x.Position == position && x.GetType() == deletingType);
-                    if (gameObject != null)
-                        gameScreen.LevelData.GameObjects.Remove(gameObject);
-                }
             }
         }
 
@@ -118,13 +140,16 @@ namespace GcgjGame.Classes.Screens
 
         public override void Draw(SpriteBatch spriteBatch)
         {
+            spriteBatch.Begin();
             foreach (GameObject go in gameObjects)
             {
                 go.Draw(spriteBatch);
             }
 
             spriteBatch.Draw(selectedTexture, selectedGameObject.Position, Color.White);
+            spriteBatch.End();
         }
+
 
     }
 }

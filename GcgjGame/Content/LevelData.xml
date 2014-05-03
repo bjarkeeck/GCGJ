@@ -2,339 +2,379 @@
 <ObjectRootData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <lvlData>
     <ObjectData>
-      <Type>GcgjGame.Classes.GameObjects.TerrainDirt</Type>
-      <X>352</X>
-      <Y>96</Y>
-    </ObjectData>
-    <ObjectData>
-      <Type>GcgjGame.Classes.GameObjects.TerrainDirt</Type>
-      <X>352</X>
-      <Y>128</Y>
-    </ObjectData>
-    <ObjectData>
-      <Type>GcgjGame.Classes.GameObjects.TerrainDirt</Type>
-      <X>352</X>
-      <Y>160</Y>
-    </ObjectData>
-    <ObjectData>
-      <Type>GcgjGame.Classes.GameObjects.TerrainDirt</Type>
-      <X>384</X>
-      <Y>96</Y>
-    </ObjectData>
-    <ObjectData>
-      <Type>GcgjGame.Classes.GameObjects.TerrainDirt</Type>
-      <X>384</X>
-      <Y>128</Y>
-    </ObjectData>
-    <ObjectData>
-      <Type>GcgjGame.Classes.GameObjects.TerrainDirt</Type>
-      <X>416</X>
-      <Y>128</Y>
-    </ObjectData>
-    <ObjectData>
-      <Type>GcgjGame.Classes.GameObjects.TerrainDirt</Type>
-      <X>416</X>
-      <Y>160</Y>
-    </ObjectData>
-    <ObjectData>
-      <Type>GcgjGame.Classes.GameObjects.TerrainDirt</Type>
-      <X>416</X>
-      <Y>96</Y>
-    </ObjectData>
-    <ObjectData>
-      <Type>GcgjGame.Classes.GameObjects.TerrainDirt</Type>
-      <X>448</X>
-      <Y>96</Y>
-    </ObjectData>
-    <ObjectData>
-      <Type>GcgjGame.Classes.GameObjects.TerrainDirt</Type>
-      <X>448</X>
-      <Y>128</Y>
-    </ObjectData>
-    <ObjectData>
-      <Type>GcgjGame.Classes.GameObjects.TerrainDirt</Type>
-      <X>480</X>
-      <Y>128</Y>
-    </ObjectData>
-    <ObjectData>
-      <Type>GcgjGame.Classes.GameObjects.TerrainDirt</Type>
-      <X>480</X>
-      <Y>160</Y>
-    </ObjectData>
-    <ObjectData>
-      <Type>GcgjGame.Classes.GameObjects.TerrainDirt</Type>
-      <X>448</X>
-      <Y>160</Y>
-    </ObjectData>
-    <ObjectData>
-      <Type>GcgjGame.Classes.GameObjects.TerrainGrass</Type>
-      <X>480</X>
-      <Y>96</Y>
-    </ObjectData>
-    <ObjectData>
-      <Type>GcgjGame.Classes.GameObjects.TerrainGrass</Type>
-      <X>448</X>
-      <Y>96</Y>
-    </ObjectData>
-    <ObjectData>
-      <Type>GcgjGame.Classes.GameObjects.TerrainGrass</Type>
-      <X>416</X>
-      <Y>96</Y>
-    </ObjectData>
-    <ObjectData>
-      <Type>GcgjGame.Classes.GameObjects.TerrainGrass</Type>
-      <X>384</X>
-      <Y>96</Y>
-    </ObjectData>
-    <ObjectData>
-      <Type>GcgjGame.Classes.GameObjects.TerrainGrass</Type>
-      <X>352</X>
-      <Y>96</Y>
-    </ObjectData>
-    <ObjectData>
-      <Type>GcgjGame.Classes.GameObjects.TerrainGrass</Type>
-      <X>320</X>
-      <Y>96</Y>
-    </ObjectData>
-    <ObjectData>
-      <Type>GcgjGame.Classes.GameObjects.TerrainGrass</Type>
-      <X>320</X>
-      <Y>128</Y>
-    </ObjectData>
-    <ObjectData>
-      <Type>GcgjGame.Classes.GameObjects.TerrainGrass</Type>
-      <X>352</X>
-      <Y>128</Y>
-    </ObjectData>
-    <ObjectData>
-      <Type>GcgjGame.Classes.GameObjects.TerrainGrass</Type>
-      <X>384</X>
-      <Y>128</Y>
-    </ObjectData>
-    <ObjectData>
-      <Type>GcgjGame.Classes.GameObjects.TerrainGrass</Type>
-      <X>416</X>
-      <Y>128</Y>
-    </ObjectData>
-    <ObjectData>
-      <Type>GcgjGame.Classes.GameObjects.TerrainGrass</Type>
-      <X>448</X>
-      <Y>128</Y>
-    </ObjectData>
-    <ObjectData>
-      <Type>GcgjGame.Classes.GameObjects.TerrainGrass</Type>
-      <X>480</X>
-      <Y>128</Y>
-    </ObjectData>
-    <ObjectData>
-      <Type>GcgjGame.Classes.GameObjects.TerrainGrass</Type>
-      <X>512</X>
-      <Y>128</Y>
-    </ObjectData>
-    <ObjectData>
-      <Type>GcgjGame.Classes.GameObjects.TerrainGrass</Type>
-      <X>512</X>
-      <Y>160</Y>
-    </ObjectData>
-    <ObjectData>
-      <Type>GcgjGame.Classes.GameObjects.TerrainGrass</Type>
-      <X>480</X>
-      <Y>160</Y>
-    </ObjectData>
-    <ObjectData>
-      <Type>GcgjGame.Classes.GameObjects.TerrainGrass</Type>
-      <X>448</X>
-      <Y>160</Y>
-    </ObjectData>
-    <ObjectData>
-      <Type>GcgjGame.Classes.GameObjects.TerrainGrass</Type>
-      <X>416</X>
-      <Y>160</Y>
-    </ObjectData>
-    <ObjectData>
-      <Type>GcgjGame.Classes.GameObjects.TerrainGrass</Type>
-      <X>384</X>
-      <Y>160</Y>
-    </ObjectData>
-    <ObjectData>
-      <Type>GcgjGame.Classes.GameObjects.TerrainGrass</Type>
-      <X>352</X>
-      <Y>160</Y>
-    </ObjectData>
-    <ObjectData>
       <Type>GcgjGame.Classes.GameObjects.TerrainGrass</Type>
       <X>320</X>
       <Y>160</Y>
     </ObjectData>
     <ObjectData>
-      <Type>GcgjGame.Classes.GameObjects.TerrainGrass</Type>
-      <X>320</X>
-      <Y>64</Y>
+      <Type>GcgjGame.Classes.GameObjects.TerrainDirt</Type>
+      <X>0</X>
+      <Y>0</Y>
     </ObjectData>
     <ObjectData>
-      <Type>GcgjGame.Classes.GameObjects.TerrainGrass</Type>
-      <X>352</X>
-      <Y>64</Y>
+      <Type>GcgjGame.Classes.GameObjects.TerrainDirt</Type>
+      <X>736</X>
+      <Y>0</Y>
     </ObjectData>
     <ObjectData>
-      <Type>GcgjGame.Classes.GameObjects.TerrainGrass</Type>
-      <X>384</X>
-      <Y>64</Y>
+      <Type>GcgjGame.Classes.GameObjects.TerrainDirt</Type>
+      <X>736</X>
+      <Y>448</Y>
     </ObjectData>
     <ObjectData>
-      <Type>GcgjGame.Classes.GameObjects.TerrainGrass</Type>
-      <X>416</X>
-      <Y>64</Y>
+      <Type>GcgjGame.Classes.GameObjects.TerrainDirt</Type>
+      <X>736</X>
+      <Y>416</Y>
     </ObjectData>
     <ObjectData>
-      <Type>GcgjGame.Classes.GameObjects.TerrainGrass</Type>
-      <X>448</X>
-      <Y>64</Y>
+      <Type>GcgjGame.Classes.GameObjects.TerrainDirt</Type>
+      <X>736</X>
+      <Y>384</Y>
     </ObjectData>
     <ObjectData>
-      <Type>GcgjGame.Classes.GameObjects.TerrainGrass</Type>
-      <X>512</X>
-      <Y>64</Y>
+      <Type>GcgjGame.Classes.GameObjects.TerrainDirt</Type>
+      <X>736</X>
+      <Y>352</Y>
     </ObjectData>
     <ObjectData>
-      <Type>GcgjGame.Classes.GameObjects.TerrainGrass</Type>
-      <X>512</X>
-      <Y>96</Y>
+      <Type>GcgjGame.Classes.GameObjects.TerrainDirt</Type>
+      <X>736</X>
+      <Y>288</Y>
     </ObjectData>
     <ObjectData>
-      <Type>GcgjGame.Classes.GameObjects.TerrainGrass</Type>
-      <X>480</X>
-      <Y>64</Y>
+      <Type>GcgjGame.Classes.GameObjects.TerrainDirt</Type>
+      <X>736</X>
+      <Y>256</Y>
     </ObjectData>
     <ObjectData>
-      <Type>GcgjGame.Classes.GameObjects.TerrainGrass</Type>
-      <X>512</X>
+      <Type>GcgjGame.Classes.GameObjects.TerrainDirt</Type>
+      <X>736</X>
+      <Y>224</Y>
+    </ObjectData>
+    <ObjectData>
+      <Type>GcgjGame.Classes.GameObjects.TerrainDirt</Type>
+      <X>736</X>
       <Y>192</Y>
     </ObjectData>
     <ObjectData>
-      <Type>GcgjGame.Classes.GameObjects.TerrainGrass</Type>
-      <X>480</X>
-      <Y>192</Y>
-    </ObjectData>
-    <ObjectData>
-      <Type>GcgjGame.Classes.GameObjects.TerrainGrass</Type>
-      <X>448</X>
-      <Y>192</Y>
-    </ObjectData>
-    <ObjectData>
-      <Type>GcgjGame.Classes.GameObjects.TerrainGrass</Type>
-      <X>416</X>
-      <Y>192</Y>
-    </ObjectData>
-    <ObjectData>
-      <Type>GcgjGame.Classes.GameObjects.TerrainGrass</Type>
-      <X>384</X>
-      <Y>192</Y>
-    </ObjectData>
-    <ObjectData>
-      <Type>GcgjGame.Classes.GameObjects.TerrainGrass</Type>
-      <X>352</X>
-      <Y>192</Y>
-    </ObjectData>
-    <ObjectData>
-      <Type>GcgjGame.Classes.GameObjects.TerrainGrass</Type>
-      <X>320</X>
-      <Y>192</Y>
-    </ObjectData>
-    <ObjectData>
-      <Type>GcgjGame.Classes.GameObjects.TerrainGrass</Type>
-      <X>288</X>
-      <Y>192</Y>
-    </ObjectData>
-    <ObjectData>
-      <Type>GcgjGame.Classes.GameObjects.TerrainGrass</Type>
-      <X>288</X>
+      <Type>GcgjGame.Classes.GameObjects.TerrainDirt</Type>
+      <X>736</X>
       <Y>160</Y>
     </ObjectData>
     <ObjectData>
-      <Type>GcgjGame.Classes.GameObjects.TerrainGrass</Type>
-      <X>288</X>
+      <Type>GcgjGame.Classes.GameObjects.TerrainDirt</Type>
+      <X>736</X>
       <Y>128</Y>
     </ObjectData>
     <ObjectData>
-      <Type>GcgjGame.Classes.GameObjects.TerrainGrass</Type>
-      <X>288</X>
+      <Type>GcgjGame.Classes.GameObjects.TerrainDirt</Type>
+      <X>736</X>
       <Y>96</Y>
     </ObjectData>
     <ObjectData>
-      <Type>GcgjGame.Classes.GameObjects.TerrainGrass</Type>
+      <Type>GcgjGame.Classes.GameObjects.TerrainDirt</Type>
+      <X>736</X>
+      <Y>64</Y>
+    </ObjectData>
+    <ObjectData>
+      <Type>GcgjGame.Classes.GameObjects.TerrainDirt</Type>
+      <X>736</X>
+      <Y>32</Y>
+    </ObjectData>
+    <ObjectData>
+      <Type>GcgjGame.Classes.GameObjects.TerrainDirt</Type>
+      <X>736</X>
+      <Y>320</Y>
+    </ObjectData>
+    <ObjectData>
+      <Type>GcgjGame.Classes.GameObjects.TerrainDirt</Type>
+      <X>704</X>
+      <Y>0</Y>
+    </ObjectData>
+    <ObjectData>
+      <Type>GcgjGame.Classes.GameObjects.TerrainDirt</Type>
+      <X>672</X>
+      <Y>0</Y>
+    </ObjectData>
+    <ObjectData>
+      <Type>GcgjGame.Classes.GameObjects.TerrainDirt</Type>
+      <X>256</X>
+      <Y>0</Y>
+    </ObjectData>
+    <ObjectData>
+      <Type>GcgjGame.Classes.GameObjects.TerrainDirt</Type>
+      <X>224</X>
+      <Y>0</Y>
+    </ObjectData>
+    <ObjectData>
+      <Type>GcgjGame.Classes.GameObjects.TerrainDirt</Type>
+      <X>160</X>
+      <Y>0</Y>
+    </ObjectData>
+    <ObjectData>
+      <Type>GcgjGame.Classes.GameObjects.TerrainDirt</Type>
+      <X>128</X>
+      <Y>0</Y>
+    </ObjectData>
+    <ObjectData>
+      <Type>GcgjGame.Classes.GameObjects.TerrainDirt</Type>
+      <X>32</X>
+      <Y>0</Y>
+    </ObjectData>
+    <ObjectData>
+      <Type>GcgjGame.Classes.GameObjects.TerrainDirt</Type>
+      <X>64</X>
+      <Y>0</Y>
+    </ObjectData>
+    <ObjectData>
+      <Type>GcgjGame.Classes.GameObjects.TerrainDirt</Type>
+      <X>96</X>
+      <Y>0</Y>
+    </ObjectData>
+    <ObjectData>
+      <Type>GcgjGame.Classes.GameObjects.TerrainDirt</Type>
+      <X>192</X>
+      <Y>0</Y>
+    </ObjectData>
+    <ObjectData>
+      <Type>GcgjGame.Classes.GameObjects.TerrainDirt</Type>
       <X>288</X>
-      <Y>64</Y>
+      <Y>0</Y>
     </ObjectData>
     <ObjectData>
-      <Type>GcgjGame.Classes.GameObjects.TerrainGrass</Type>
-      <X>544</X>
-      <Y>64</Y>
+      <Type>GcgjGame.Classes.GameObjects.TerrainDirt</Type>
+      <X>640</X>
+      <Y>0</Y>
     </ObjectData>
     <ObjectData>
-      <Type>GcgjGame.Classes.GameObjects.TerrainGrass</Type>
-      <X>544</X>
-      <Y>96</Y>
+      <Type>GcgjGame.Classes.GameObjects.TerrainDirt</Type>
+      <X>608</X>
+      <Y>0</Y>
     </ObjectData>
     <ObjectData>
-      <Type>GcgjGame.Classes.GameObjects.TerrainGrass</Type>
+      <Type>GcgjGame.Classes.GameObjects.TerrainDirt</Type>
+      <X>576</X>
+      <Y>0</Y>
+    </ObjectData>
+    <ObjectData>
+      <Type>GcgjGame.Classes.GameObjects.TerrainDirt</Type>
       <X>544</X>
+      <Y>0</Y>
+    </ObjectData>
+    <ObjectData>
+      <Type>GcgjGame.Classes.GameObjects.TerrainDirt</Type>
+      <X>512</X>
+      <Y>0</Y>
+    </ObjectData>
+    <ObjectData>
+      <Type>GcgjGame.Classes.GameObjects.TerrainDirt</Type>
+      <X>480</X>
+      <Y>0</Y>
+    </ObjectData>
+    <ObjectData>
+      <Type>GcgjGame.Classes.GameObjects.TerrainDirt</Type>
+      <X>448</X>
+      <Y>0</Y>
+    </ObjectData>
+    <ObjectData>
+      <Type>GcgjGame.Classes.GameObjects.TerrainDirt</Type>
+      <X>416</X>
+      <Y>0</Y>
+    </ObjectData>
+    <ObjectData>
+      <Type>GcgjGame.Classes.GameObjects.TerrainDirt</Type>
+      <X>384</X>
+      <Y>0</Y>
+    </ObjectData>
+    <ObjectData>
+      <Type>GcgjGame.Classes.GameObjects.TerrainDirt</Type>
+      <X>352</X>
+      <Y>0</Y>
+    </ObjectData>
+    <ObjectData>
+      <Type>GcgjGame.Classes.GameObjects.TerrainDirt</Type>
+      <X>320</X>
+      <Y>0</Y>
+    </ObjectData>
+    <ObjectData>
+      <Type>GcgjGame.Classes.GameObjects.TerrainDirt</Type>
+      <X>0</X>
+      <Y>32</Y>
+    </ObjectData>
+    <ObjectData>
+      <Type>GcgjGame.Classes.GameObjects.TerrainDirt</Type>
+      <X>0</X>
       <Y>128</Y>
     </ObjectData>
     <ObjectData>
-      <Type>GcgjGame.Classes.GameObjects.TerrainGrass</Type>
-      <X>544</X>
+      <Type>GcgjGame.Classes.GameObjects.TerrainDirt</Type>
+      <X>0</X>
       <Y>160</Y>
     </ObjectData>
     <ObjectData>
-      <Type>GcgjGame.Classes.GameObjects.TerrainGrass</Type>
-      <X>544</X>
+      <Type>GcgjGame.Classes.GameObjects.TerrainDirt</Type>
+      <X>0</X>
       <Y>192</Y>
     </ObjectData>
     <ObjectData>
-      <Type>GcgjGame.Classes.GameObjects.TerrainGrass</Type>
-      <X>544</X>
+      <Type>GcgjGame.Classes.GameObjects.TerrainDirt</Type>
+      <X>0</X>
       <Y>224</Y>
     </ObjectData>
     <ObjectData>
-      <Type>GcgjGame.Classes.GameObjects.TerrainGrass</Type>
-      <X>512</X>
-      <Y>224</Y>
+      <Type>GcgjGame.Classes.GameObjects.TerrainDirt</Type>
+      <X>0</X>
+      <Y>288</Y>
     </ObjectData>
     <ObjectData>
-      <Type>GcgjGame.Classes.GameObjects.TerrainGrass</Type>
-      <X>480</X>
-      <Y>224</Y>
+      <Type>GcgjGame.Classes.GameObjects.TerrainDirt</Type>
+      <X>0</X>
+      <Y>352</Y>
     </ObjectData>
     <ObjectData>
-      <Type>GcgjGame.Classes.GameObjects.TerrainGrass</Type>
-      <X>448</X>
-      <Y>224</Y>
+      <Type>GcgjGame.Classes.GameObjects.TerrainDirt</Type>
+      <X>0</X>
+      <Y>448</Y>
     </ObjectData>
     <ObjectData>
-      <Type>GcgjGame.Classes.GameObjects.TerrainGrass</Type>
-      <X>416</X>
-      <Y>224</Y>
+      <Type>GcgjGame.Classes.GameObjects.TerrainDirt</Type>
+      <X>0</X>
+      <Y>416</Y>
     </ObjectData>
     <ObjectData>
-      <Type>GcgjGame.Classes.GameObjects.TerrainGrass</Type>
-      <X>384</X>
-      <Y>224</Y>
+      <Type>GcgjGame.Classes.GameObjects.TerrainDirt</Type>
+      <X>0</X>
+      <Y>384</Y>
     </ObjectData>
     <ObjectData>
-      <Type>GcgjGame.Classes.GameObjects.TerrainGrass</Type>
-      <X>352</X>
-      <Y>224</Y>
+      <Type>GcgjGame.Classes.GameObjects.TerrainDirt</Type>
+      <X>0</X>
+      <Y>320</Y>
     </ObjectData>
     <ObjectData>
-      <Type>GcgjGame.Classes.GameObjects.TerrainGrass</Type>
-      <X>320</X>
-      <Y>224</Y>
+      <Type>GcgjGame.Classes.GameObjects.TerrainDirt</Type>
+      <X>0</X>
+      <Y>256</Y>
     </ObjectData>
     <ObjectData>
-      <Type>GcgjGame.Classes.GameObjects.TerrainGrass</Type>
+      <Type>GcgjGame.Classes.GameObjects.TerrainDirt</Type>
+      <X>0</X>
+      <Y>64</Y>
+    </ObjectData>
+    <ObjectData>
+      <Type>GcgjGame.Classes.GameObjects.TerrainDirt</Type>
+      <X>0</X>
+      <Y>96</Y>
+    </ObjectData>
+    <ObjectData>
+      <Type>GcgjGame.Classes.GameObjects.TerrainDirt</Type>
+      <X>32</X>
+      <Y>448</Y>
+    </ObjectData>
+    <ObjectData>
+      <Type>GcgjGame.Classes.GameObjects.TerrainDirt</Type>
+      <X>64</X>
+      <Y>448</Y>
+    </ObjectData>
+    <ObjectData>
+      <Type>GcgjGame.Classes.GameObjects.TerrainDirt</Type>
+      <X>96</X>
+      <Y>448</Y>
+    </ObjectData>
+    <ObjectData>
+      <Type>GcgjGame.Classes.GameObjects.TerrainDirt</Type>
+      <X>128</X>
+      <Y>448</Y>
+    </ObjectData>
+    <ObjectData>
+      <Type>GcgjGame.Classes.GameObjects.TerrainDirt</Type>
+      <X>160</X>
+      <Y>448</Y>
+    </ObjectData>
+    <ObjectData>
+      <Type>GcgjGame.Classes.GameObjects.TerrainDirt</Type>
+      <X>192</X>
+      <Y>448</Y>
+    </ObjectData>
+    <ObjectData>
+      <Type>GcgjGame.Classes.GameObjects.TerrainDirt</Type>
+      <X>224</X>
+      <Y>448</Y>
+    </ObjectData>
+    <ObjectData>
+      <Type>GcgjGame.Classes.GameObjects.TerrainDirt</Type>
+      <X>256</X>
+      <Y>448</Y>
+    </ObjectData>
+    <ObjectData>
+      <Type>GcgjGame.Classes.GameObjects.TerrainDirt</Type>
       <X>288</X>
-      <Y>224</Y>
+      <Y>448</Y>
+    </ObjectData>
+    <ObjectData>
+      <Type>GcgjGame.Classes.GameObjects.TerrainDirt</Type>
+      <X>320</X>
+      <Y>448</Y>
+    </ObjectData>
+    <ObjectData>
+      <Type>GcgjGame.Classes.GameObjects.TerrainDirt</Type>
+      <X>352</X>
+      <Y>448</Y>
+    </ObjectData>
+    <ObjectData>
+      <Type>GcgjGame.Classes.GameObjects.TerrainDirt</Type>
+      <X>384</X>
+      <Y>448</Y>
+    </ObjectData>
+    <ObjectData>
+      <Type>GcgjGame.Classes.GameObjects.TerrainDirt</Type>
+      <X>416</X>
+      <Y>448</Y>
+    </ObjectData>
+    <ObjectData>
+      <Type>GcgjGame.Classes.GameObjects.TerrainDirt</Type>
+      <X>448</X>
+      <Y>448</Y>
+    </ObjectData>
+    <ObjectData>
+      <Type>GcgjGame.Classes.GameObjects.TerrainDirt</Type>
+      <X>480</X>
+      <Y>448</Y>
+    </ObjectData>
+    <ObjectData>
+      <Type>GcgjGame.Classes.GameObjects.TerrainDirt</Type>
+      <X>512</X>
+      <Y>448</Y>
+    </ObjectData>
+    <ObjectData>
+      <Type>GcgjGame.Classes.GameObjects.TerrainDirt</Type>
+      <X>544</X>
+      <Y>448</Y>
+    </ObjectData>
+    <ObjectData>
+      <Type>GcgjGame.Classes.GameObjects.TerrainDirt</Type>
+      <X>576</X>
+      <Y>448</Y>
+    </ObjectData>
+    <ObjectData>
+      <Type>GcgjGame.Classes.GameObjects.TerrainDirt</Type>
+      <X>608</X>
+      <Y>448</Y>
+    </ObjectData>
+    <ObjectData>
+      <Type>GcgjGame.Classes.GameObjects.TerrainDirt</Type>
+      <X>640</X>
+      <Y>448</Y>
+    </ObjectData>
+    <ObjectData>
+      <Type>GcgjGame.Classes.GameObjects.TerrainDirt</Type>
+      <X>672</X>
+      <Y>448</Y>
+    </ObjectData>
+    <ObjectData>
+      <Type>GcgjGame.Classes.GameObjects.TerrainDirt</Type>
+      <X>704</X>
+      <Y>448</Y>
     </ObjectData>
   </lvlData>
 </ObjectRootData>
