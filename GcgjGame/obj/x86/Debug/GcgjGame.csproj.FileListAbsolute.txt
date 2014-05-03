@@ -1,0 +1,13 @@
+C:\Users\Bjarke\Documents\GitHub\GCGJ\GcgjGame\bin\WindowsGL\Debug\GcgjGame.exe
+C:\Users\Bjarke\Documents\GitHub\GCGJ\GcgjGame\bin\WindowsGL\Debug\GcgjGame.pdb
+C:\Users\Bjarke\Documents\GitHub\GCGJ\GcgjGame\bin\WindowsGL\Debug\Lidgren.Network.dll
+C:\Users\Bjarke\Documents\GitHub\GCGJ\GcgjGame\bin\WindowsGL\Debug\MonoGame.Framework.dll
+C:\Users\Bjarke\Documents\GitHub\GCGJ\GcgjGame\bin\WindowsGL\Debug\OpenTK.dll
+C:\Users\Bjarke\Documents\GitHub\GCGJ\GcgjGame\bin\WindowsGL\Debug\Tao.Sdl.dll
+C:\Users\Bjarke\Documents\GitHub\GCGJ\GcgjGame\obj\x86\Debug\GcgjGame.csprojResolveAssemblyReference.cache
+C:\Users\Bjarke\Documents\GitHub\GCGJ\GcgjGame\obj\x86\Debug\GcgjGame.exe
+C:\Users\Bjarke\Documents\GitHub\GCGJ\GcgjGame\obj\x86\Debug\GcgjGame.pdb
+C:\Users\Bjarke\Documents\GitHub\GCGJ\GcgjGame\bin\WindowsGL\Debug\MonoGame.Framework.pdb
+C:\Users\Bjarke\Documents\GitHub\GCGJ\GcgjGame\bin\WindowsGL\Debug\Content\Images\Dirt.png
+C:\Users\Bjarke\Documents\GitHub\GCGJ\GcgjGame\bin\WindowsGL\Debug\Content\Images\Grass.png
+C:\Users\Bjarke\Documents\GitHub\GCGJ\GcgjGame\bin\WindowsGL\Debug\Content\Images\Selected.png

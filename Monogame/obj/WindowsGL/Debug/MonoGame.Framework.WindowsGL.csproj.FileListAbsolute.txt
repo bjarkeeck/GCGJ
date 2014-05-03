@@ -1,0 +1,8 @@
+C:\Users\Bjarke\Documents\GitHub\GCGJ\Monogame\obj\WindowsGL\Debug\MonoGame.Framework.WindowsGL.csprojResolveAssemblyReference.cache
+C:\Users\Bjarke\Documents\GitHub\GCGJ\Monogame\bin\WindowsGL\Debug\MonoGame.Framework.dll
+C:\Users\Bjarke\Documents\GitHub\GCGJ\Monogame\bin\WindowsGL\Debug\MonoGame.Framework.pdb
+C:\Users\Bjarke\Documents\GitHub\GCGJ\Monogame\bin\WindowsGL\Debug\Lidgren.Network.dll
+C:\Users\Bjarke\Documents\GitHub\GCGJ\Monogame\bin\WindowsGL\Debug\OpenTK.dll
+C:\Users\Bjarke\Documents\GitHub\GCGJ\Monogame\bin\WindowsGL\Debug\Tao.Sdl.dll
+C:\Users\Bjarke\Documents\GitHub\GCGJ\Monogame\obj\WindowsGL\Debug\MonoGame.Framework.dll
+C:\Users\Bjarke\Documents\GitHub\GCGJ\Monogame\obj\WindowsGL\Debug\MonoGame.Framework.pdb
