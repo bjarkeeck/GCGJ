@@ -84,7 +84,7 @@ namespace GcgjGame.Classes.Screens
             {
                 if (gameScreen.Rectangle.Contains(InputHelper.MousePosition))
                 {
-                    Vector2 position = new Vector2((int)(InputHelper.MousePosition.X / 32f) * 32, (int)(InputHelper.MousePosition.Y / 32f) * 32);
+                    Vector2 position = new Vector2((int)(InputHelper.MousePositionInWorld.X / 32f) * 32, (int)(InputHelper.MousePositionInWorld.Y / 32f) * 32);
                     GameObject gameObject = gameScreen.LevelData.GameObjects.OrderByDescending(x => x.ZIndex).FirstOrDefault(x => x.Position == position);
                     if (gameObject != null)
                         deletingType = gameObject.GetType();
@@ -95,7 +95,7 @@ namespace GcgjGame.Classes.Screens
             {
                 if (gameScreen.Rectangle.Contains(InputHelper.MousePosition))
                 {
-                    Vector2 position = new Vector2((int)(InputHelper.MousePosition.X / 32f) * 32, (int)(InputHelper.MousePosition.Y / 32f) * 32);
+                    Vector2 position = new Vector2((int)(InputHelper.MousePositionInWorld.X / 32f) * 32, (int)(InputHelper.MousePositionInWorld.Y / 32f) * 32);
                     GameObject gameObject = gameScreen.LevelData.GameObjects.FirstOrDefault(x => x.Position == position && x.GetType() == deletingType);
                     if (gameObject != null)
                         gameScreen.LevelData.GameObjects.Remove(gameObject);
@@ -114,7 +114,7 @@ namespace GcgjGame.Classes.Screens
 
                     if (gameScreen.Rectangle.Contains(InputHelper.MousePosition))
                     {
-                        Vector2 position = new Vector2((int)(InputHelper.MousePosition.X / 32f) * 32, (int)(InputHelper.MousePosition.Y / 32f) * 32);
+                        Vector2 position = new Vector2((int)(InputHelper.MousePositionInWorld.X / 32f) * 32, (int)(InputHelper.MousePositionInWorld.Y / 32f) * 32);
                         GameObject gameObject = gameScreen.LevelData.GameObjects.FirstOrDefault(x => x.Position == position && x.ZIndex == selectedGameObject.ZIndex);
                         if (gameObject == null)
                             gameScreen.LevelData.CreateGameObject((GameObject)Activator.CreateInstance(selectedGameObject.GetType()), position);

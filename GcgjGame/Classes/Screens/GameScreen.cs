@@ -51,8 +51,7 @@ namespace GcgjGame.Classes.Screens
         public Matrix GetTransform()
         {
             var translationMatrix = Matrix.CreateTranslation(new Vector3(CameraPosition.X, CameraPosition.Y, 0));
-            var originMatrix = Matrix.CreateTranslation(new Vector3(Rectangle.Width / -2, Rectangle.Height / -2, 0));
-            return translationMatrix  * originMatrix;
+            return translationMatrix;
         }
     }
 }
