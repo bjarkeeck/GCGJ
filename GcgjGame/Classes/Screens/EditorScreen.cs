@@ -46,11 +46,14 @@ namespace GcgjGame.Classes.Screens
             Vector2 position = Vector2.Zero;
             foreach (Type type in Assembly.GetExecutingAssembly().GetTypes().Where(x => typeof(GameObject).IsAssignableFrom(x) && x != typeof(GameObject)))
             {
-                GameObject go = (GameObject)Activator.CreateInstance(type);
-                go.Initialize(position);
-                go.LoadContent(ScreenManager.ContentManager);
-                gameObjects.Add(go);
-                position.Y += 32;
+                if (type != typeof(TerrainGrass))
+                {
+                    GameObject go = (GameObject)Activator.CreateInstance(type);
+                    go.Initialize(position);
+                    go.LoadContent(ScreenManager.ContentManager);
+                    gameObjects.Add(go);
+                    position.Y += 32;
+                }
             }
 
             selectedGameObject = gameObjects.First();
