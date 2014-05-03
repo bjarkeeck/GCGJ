@@ -15,7 +15,7 @@ namespace GcgjGame.Classes.GameObjects
 
         public override void Initialize(Vector2 position)
         {
-            this.Rectangle = new Rectangle((int)position.X, (int)position.Y, 32, 32);
+            this.Rectangle = new Rectangle(0, 0, 1920, 1080);
             this.Position = position;
         }
 
@@ -26,6 +26,7 @@ namespace GcgjGame.Classes.GameObjects
 
         public override void Draw(SpriteBatch spriteBatch)
         {
+            
             spriteBatch.Draw(Texture, this.Rectangle, Color.White);
         }
 
