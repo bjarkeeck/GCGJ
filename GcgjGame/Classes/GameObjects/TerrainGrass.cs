@@ -21,13 +21,73 @@ namespace GcgjGame.Classes.GameObjects
 
         public override void LoadContent(ContentManager content)
         {
-            Texture = content.Load<Texture2D>("Images/Grass");
+            Texture = content.Load<Texture2D>("Images/MassiveGrass");
         }
 
         public override void Draw(SpriteBatch spriteBatch)
         {
-            
-            spriteBatch.Draw(Texture, this.Rectangle, Color.White);
+            Camera2D cam = new Camera2D();
+
+            int camX = (int)cam.Position.X % 1920;
+            int camY = (int)cam.Position.X % 1080;
+            int camxX = (int)cam.Position.X / 1920;
+            int camxY = (int)cam.Position.X / 1080;
+
+
+
+            if (camX == 960)
+            {
+                if (camY == 590)
+                {
+                    spriteBatch.Draw(Texture, new Rectangle(1920 * camxX, 1080 * camxY, 1920, 1080), Color.White);
+                }
+                else if (camY < 590)
+                {
+                    spriteBatch.Draw(Texture, new Rectangle(1920 * camxX, 1080 * camxY, 1920, 1080), Color.White);
+                    spriteBatch.Draw(Texture, new Rectangle(1920 * camxX, 1080 * camxY, 1920, 1080), Color.White);
+                    spriteBatch.Draw(Texture, new Rectangle(1920 * camxX, 1080 * camxY, 1920, 1080), Color.White);
+                }
+                else
+                {
+                    spriteBatch.Draw(Texture, new Rectangle(1920 * camxX, 1080 * camxY, 1920, 1080), Color.White);
+                    spriteBatch.Draw(Texture, new Rectangle(1920 * camxX, 1080 * camxY, 1920, 1080), Color.White);
+                    spriteBatch.Draw(Texture, new Rectangle(1920 * camxX, 1080 * camxY, 1920, 1080), Color.White);
+                }
+            }
+            else if (camX < 960)
+            {
+                if (camY == 590)
+                {
+                    spriteBatch.Draw(Texture, new Rectangle(0, 0, 1920, 1080), Color.White);
+                }
+                else if (camY < 590)
+                {
+                    spriteBatch.Draw(Texture, new Rectangle(0, 0, 1920, 1080), Color.White);
+                    spriteBatch.Draw(Texture, new Rectangle(0, 0, 1920, 1080), Color.White);
+                }
+                else
+                {
+                    spriteBatch.Draw(Texture, new Rectangle(0, 0, 1920, 1080), Color.White);
+                    spriteBatch.Draw(Texture, new Rectangle(0, 0, 1920, 1080), Color.White);
+                }
+            }
+            else
+            {
+                if (camY == 590)
+                {
+                    spriteBatch.Draw(Texture, new Rectangle(0, 0, 1920, 1080), Color.White);
+                }
+                else if (camY < 590)
+                {
+                    spriteBatch.Draw(Texture, new Rectangle(0, 0, 1920, 1080), Color.White);
+                    spriteBatch.Draw(Texture, new Rectangle(0, 0, 1920, 1080), Color.White);
+                }
+                else
+                {
+                    spriteBatch.Draw(Texture, new Rectangle(0, 0, 1920, 1080), Color.White);
+                    spriteBatch.Draw(Texture, new Rectangle(0, 0, 1920, 1080), Color.White);
+                }
+            }
         }
 
     }
