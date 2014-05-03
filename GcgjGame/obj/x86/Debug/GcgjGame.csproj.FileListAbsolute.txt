@@ -24,3 +24,4 @@ C:\Users\Michael\Documents\GitHub\GCGJ\GcgjGame\bin\WindowsGL\Debug\OpenTK.dll
 C:\Users\Michael\Documents\GitHub\GCGJ\GcgjGame\bin\WindowsGL\Debug\Tao.Sdl.dll
 C:\Users\Michael\Documents\GitHub\GCGJ\GcgjGame\bin\WindowsGL\Debug\MonoGame.Framework.pdb
 C:\Users\Michael\Documents\GitHub\GCGJ\GcgjGame\obj\x86\Debug\GcgjGame.csprojResolveAssemblyReference.cache
+C:\Users\Michael\Documents\GitHub\GCGJ\GcgjGame\bin\WindowsGL\Debug\Content\Images\MassiveGrass.png

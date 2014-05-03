@@ -95,9 +95,7 @@ namespace GcgjGame.Classes.Core
                 screen.UpdateRenderTarget();
                 GraphicsDevice.SetRenderTarget(screen.RenderTarget);
                 GraphicsDevice.Clear(Color.Transparent);
-                spriteBatch.Begin();
                 screen.Draw(spriteBatch);
-                spriteBatch.End();
             }
 
             GraphicsDevice.SetRenderTarget(null);
