@@ -1,4 +1,5 @@
-﻿using Microsoft.Xna.Framework;
+﻿using GcgjGame.Classes.Screens;
+using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Input;
 using System;
 using System.Collections.Generic;
@@ -18,6 +19,14 @@ namespace GcgjGame.Classes.Core
         private static List<Shortcut> m_shortcuts = new List<Shortcut>();
 
         private static List<Keys> m_shortcutKeys = new List<Keys>();
+
+        public static Vector2 MousePositionInWorld
+        {
+            get
+            {
+                return MousePosition - GameScreen.CameraPosition;
+            }
+        }
 
         public static Vector2 MousePosition {
             get {
