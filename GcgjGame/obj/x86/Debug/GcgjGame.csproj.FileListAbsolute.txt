@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 C:\Users\Bjarke\Documents\GitHub\GCGJ\GcgjGame\bin\WindowsGL\Debug\GcgjGame.exe
 C:\Users\Bjarke\Documents\GitHub\GCGJ\GcgjGame\bin\WindowsGL\Debug\GcgjGame.pdb
 C:\Users\Bjarke\Documents\GitHub\GCGJ\GcgjGame\bin\WindowsGL\Debug\Lidgren.Network.dll
@@ -12,19 +11,4 @@ C:\Users\Bjarke\Documents\GitHub\GCGJ\GcgjGame\bin\WindowsGL\Debug\MonoGame.Fram
 C:\Users\Bjarke\Documents\GitHub\GCGJ\GcgjGame\bin\WindowsGL\Debug\Content\Images\Dirt.png
 C:\Users\Bjarke\Documents\GitHub\GCGJ\GcgjGame\bin\WindowsGL\Debug\Content\Images\Grass.png
 C:\Users\Bjarke\Documents\GitHub\GCGJ\GcgjGame\bin\WindowsGL\Debug\Content\Images\Selected.png
-=======
-C:\Users\Michael\Documents\GitHub\GCGJ\GcgjGame\obj\x86\Debug\GcgjGame.exe
-C:\Users\Michael\Documents\GitHub\GCGJ\GcgjGame\obj\x86\Debug\GcgjGame.pdb
-C:\Users\Michael\Documents\GitHub\GCGJ\GcgjGame\bin\WindowsGL\Debug\Content\Images\Dirt.png
-C:\Users\Michael\Documents\GitHub\GCGJ\GcgjGame\bin\WindowsGL\Debug\Content\Images\Grass.png
-C:\Users\Michael\Documents\GitHub\GCGJ\GcgjGame\bin\WindowsGL\Debug\Content\Images\Selected.png
-C:\Users\Michael\Documents\GitHub\GCGJ\GcgjGame\bin\WindowsGL\Debug\GcgjGame.exe
-C:\Users\Michael\Documents\GitHub\GCGJ\GcgjGame\bin\WindowsGL\Debug\GcgjGame.pdb
-C:\Users\Michael\Documents\GitHub\GCGJ\GcgjGame\bin\WindowsGL\Debug\Lidgren.Network.dll
-C:\Users\Michael\Documents\GitHub\GCGJ\GcgjGame\bin\WindowsGL\Debug\MonoGame.Framework.dll
-C:\Users\Michael\Documents\GitHub\GCGJ\GcgjGame\bin\WindowsGL\Debug\OpenTK.dll
-C:\Users\Michael\Documents\GitHub\GCGJ\GcgjGame\bin\WindowsGL\Debug\Tao.Sdl.dll
-C:\Users\Michael\Documents\GitHub\GCGJ\GcgjGame\bin\WindowsGL\Debug\MonoGame.Framework.pdb
-C:\Users\Michael\Documents\GitHub\GCGJ\GcgjGame\obj\x86\Debug\GcgjGame.csprojResolveAssemblyReference.cache
-C:\Users\Michael\Documents\GitHub\GCGJ\GcgjGame\bin\WindowsGL\Debug\Content\Images\MassiveGrass.png
->>>>>>> 34bed366e17dd45d3f5a8055d22d5b0fbf28f40d
+C:\Users\Bjarke\Documents\GitHub\GCGJ\GcgjGame\bin\WindowsGL\Debug\Content\Images\MassiveGrass.png

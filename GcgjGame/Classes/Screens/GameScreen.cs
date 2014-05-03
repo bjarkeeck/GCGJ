@@ -27,7 +27,6 @@ namespace GcgjGame.Classes.Screens
             {
                 this.Rectangle = new Rectangle(0, 0, ScreenManager.ScreenWidth, ScreenManager.ScreenHeight);
             };
-
         }
 
         public static Vector2 CameraPosition;
